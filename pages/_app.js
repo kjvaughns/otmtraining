@@ -1,5 +1,5 @@
-import 'tailwindcss/tailwind.css'
-import '../css/globals.css'
+import '../styles/globals.css'
+import { firestore } from '../firebaseConfig'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
